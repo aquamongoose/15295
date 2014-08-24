@@ -1,0 +1,51 @@
+\documentclass[11pt]{article}
+
+% REF: http://www.artofproblemsolving.com/Wiki/index.php/LaTeX:Packages#fancyhdr
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\pdfpagewidth 8.5in
+\pdfpageheight 11in
+
+\pagestyle{fancy}
+\headheight 35pt
+
+\lhead{\textbf{\Large Unicycling}\\ Source: classical}
+\chead{}
+\rhead{15-295, Fall 2014}
+\rfoot{}
+\cfoot{}
+\lfoot{} 
+
+%%
+
+\begin{document}
+\section*{Problem}
+Bill the freshman is unicycling across CMU's campus to find his purpose in life. The campus consists of $n$ landmarks (numbered from $1$ to $n$) which are connected to each other by $m$ bidirectional paths ($2 \le n \le 10^6, 1 \le  m \le  10^6$). Since Bill is late for ultimate frisbee practice, he would to find a path from landmark $1$ (the Gates building) to landmark $n$ (the Cut) which passes by as few landmarks as possible (including landmarks $1$ and $n$). Please help Bill find the shortest possible length. It is guaranteed that there will always exist at least one path from the Gates building to the Cut.
+
+\section*{Input}
+The first line consists of two space-separated positive integers, $n$ and $m$. The subsequent $m$ lines consist of two space-separated positive integers, the indices of two landmarks connected by a bidirectional path.
+\section*{Output}
+A single positive integer, the number of landmarks visited on the shortest path from landmark $1$ to landmark $n$.
+\section*{Example}
+Input:
+
+\begin{verbatim}
+3 3
+1 2
+2 3
+3 1
+\end{verbatim}
+
+\noindent Output:
+\begin{verbatim}
+2
+\end{verbatim}
+
+\section*{Notes}
+Bill could take a detour at landmark $2$ (Stever House), but he travels the fastest by going straight to ultimate frisbee practice.
+
+\end{document}

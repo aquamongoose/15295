@@ -1,0 +1,53 @@
+\documentclass[11pt]{article}
+
+% REF: http://www.artofproblemsolving.com/Wiki/index.php/LaTeX:Packages#fancyhdr
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\pdfpagewidth 8.5in
+\pdfpageheight 11in
+
+\pagestyle{fancy}
+\headheight 35pt
+
+\lhead{\textbf{\Large Wean Keypad Code}\\ Source: classical}
+\chead{}
+\rhead{15-295, Fall 2014}
+\rfoot{}
+\cfoot{}
+\lfoot{}
+
+%%
+
+\begin{document}
+\section*{Problem}
+Josh the freshman has been exploring Wean, and he's run into some trouble.
+There's a lock on the door for 21-295, and the only way to open it is to punch the correct number into the keypad.
+Earlier in orientation, Josh was given two strings of lowercase English letters, labeled $A$ (of length $N$, such that $1 \le N \le 10^6$) and $B$ (of length $M$, such that $1 \le M \le N$).
+Josh knows that to open the door, he will have to find out how many times $B$ appears in $A$.
+\linebreak
+\linebreak
+\noindent More formally, $B$ appears in $A$ starting at position $1 \le i \le N-M+1$ if and only if the substring of $A$ starting at $i$ (that is, the string consisting characters $A_i, A_{i+1}, \hdots, A_{i+N-1}$) is equal to $B$.
+The number of times that $B$ appears in $A$ is the number of unique $i$ that exist such that $B$ appears in $A$ starting at position $i$.
+\section*{Input}
+The first line of input contains the string $A$.
+The second line of input contains the string $B$.
+\section*{Output}
+A single integer, the correct number to get Josh the freshman into 21-295.
+\section*{Example}
+Input:
+
+\begin{verbatim}
+bananana
+an
+\end{verbatim}
+
+\noindent Output:
+
+\begin{verbatim}
+3
+\end{verbatim}
+\end{document}

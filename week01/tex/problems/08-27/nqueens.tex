@@ -1,0 +1,53 @@
+\documentclass[11pt]{article}
+
+% REF: http://www.artofproblemsolving.com/Wiki/index.php/LaTeX:Packages#fancyhdr
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\pdfpagewidth 8.5in
+\pdfpageheight 11in
+
+\pagestyle{fancy}
+\headheight 35pt
+
+\lhead{\textbf{\Large The Presidential Challenge}\\Source: classical}
+\chead{}
+\rhead{15-295, Fall 2014}
+\rfoot{}
+\cfoot{}
+\lfoot{}
+
+%%
+
+\begin{document}
+\section*{Problem}
+\noindent CMU's President Suresh challenges SCS's finest programmers to solve the following perplexing conundrum. Given a $w$ by $h$ ($1 \le  w, h \le  8$) chessboard, how many ways are there to place $n$ ($1 \le  n \le  10$) queens such that none are attacking each other? Note that queens can attack horizontally, vertically, and diagonally.
+Two arrangements are different if there exists a common square such that there is a queen in one arrangement but not in the other.
+\section*{Input}
+Three positive integers, $w$, $h$, and $n$.
+\section*{Output}
+A single positive integer, the answer to the problem.
+\section*{Example}
+Input:
+
+\begin{verbatim}
+2 3 2
+\end{verbatim}
+
+\noindent Output:
+
+\begin{verbatim}
+2
+\end{verbatim}
+
+\section*{Notes}
+There are two legal arrangements.
+\begin{verbatim}
+Q..     ..Q
+..Q     Q..
+\end{verbatim}
+Here, a \texttt{Q} denotes a queen, and a \texttt{.} denotes an empty cell.
+\end{document}

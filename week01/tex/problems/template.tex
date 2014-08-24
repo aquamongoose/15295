@@ -1,0 +1,48 @@
+\documentclass[11pt]{article}
+
+% REF: http://www.artofproblemsolving.com/Wiki/index.php/LaTeX:Packages#fancyhdr
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\pdfpagewidth 8.5in
+\pdfpageheight 11in
+
+\pagestyle{fancy}
+\headheight 35pt
+
+\lhead{\textbf{\Large Problem Name}\\ Source: contest/url}
+\chead{}
+\rhead{15-295, Fall 2014}
+\rfoot{}
+\cfoot{}
+\lfoot{}
+
+%%
+
+\begin{document}
+\section*{Problem}
+Bessie the cow has trouble with addition, and would really appreciate your help. She has two integers $A$ and $B$ ($-10^9 \le A, B \le 10^9$) and would like to find their sum.
+\section*{Input}
+Two space separated integers $A$ and $B$.
+\section*{Output}
+A single positive integer, $A + B$.
+\section*{Example}
+Input:
+
+\begin{verbatim}
+1 1
+\end{verbatim}
+
+\noindent Output:
+
+\begin{verbatim}
+2
+\end{verbatim}
+
+\section*{Notes}
+Yes, this is as easy as you think.
+
+\end{document}
