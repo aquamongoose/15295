@@ -1,5 +1,7 @@
 *.in
 *.out
 *.bin
+a.out
+*/a.out
 *~
 \#*\#
