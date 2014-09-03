@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.12)  3 SEP 2014 16:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.12)  3 SEP 2014 16:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -145,10 +145,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [2] (./Triangles.aux) ) 
 Here is how much of TeX's memory you used:
- 1324 strings out of 495028
- 14776 string characters out of 6181497
+ 1315 strings out of 495028
+ 14629 string characters out of 6181497
  63868 words of memory out of 5000000
- 4566 multiletter control sequences out of 15000+600000
+ 4557 multiletter control sequences out of 15000+600000
  9369 words of font info for 36 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  29i,11n,43p,225b,273s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -156,7 +156,7 @@ Here is how much of TeX's memory you used:
 onts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Triangles.pdf (2 pages, 50532 bytes).
+Output written on Triangles.pdf (2 pages, 50742 bytes).
 PDF statistics:
  27 PDF objects out of 1000 (max. 8388607)
  18 compressed objects within 1 object stream
