@@ -2,7 +2,7 @@
 
 % REF: http://www.artofproblemsolving.com/Wiki/index.php/LaTeX:Packages#fancyhdr
 \usepackage{fancyhdr}
-\usepackage{hyperref}
+%\usepackage{hyperref}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{amsthm}
@@ -24,7 +24,7 @@
 
 \begin{document}
 \section*{Problem}
-In a finite sequence of positive integers not greater than a \textbf{billion},
+In a finite sequence of positive integers not greater than a billion,
 representing lengths of line segments, we want to find three numbers such that
 one can build a triangle from segments of such lengths.
 \\\\
@@ -35,7 +35,7 @@ standard output. If there exist no such triple, the program writes one word NIE
 ("no") to standard output.
 \section*{Input}
 In the standard input there is a finite sequence of at least three positive
-integers not greater then $10^9$, terminated by the number $0$. Each number is
+integers not greater than $10^9$, terminated by the number $0$. Each number is
 written in a separate line. Positive numbers are lengths of line segments, and
 the number $0$ denotes the end of the data.
 \section*{Output}
@@ -78,4 +78,9 @@ Input:
 \begin{verbatim}
 TAK
 \end{verbatim}
+
+\section*{Note}
+
+Note that the input size is REALLY large. Attempting to read in and store all the data will probably result in Time Limit Exceeded or Run Time Error.
+
 \end{document}
